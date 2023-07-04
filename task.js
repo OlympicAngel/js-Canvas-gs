@@ -33,7 +33,7 @@ class Task {
     canvasDraw(canvas) {
         //clean the canvas
         canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
-        this.#drawFunc?.call(canvas, canvas.width, canvas.height);
+        this.#drawFunc?.call(this, canvas, canvas.width, canvas.height);
     }
 
     /** */
