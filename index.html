@@ -16,6 +16,7 @@
             position: relative;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-evenly;
             gap: 2em;
             margin: 2em;
         }
@@ -26,7 +27,7 @@
             padding: 1em;
             background-color: #fff;
             flex: 1;
-            min-width: max(30%,calc( 360px - 4em) ) ;
+            min-width: max(30%,300px) ;
             box-shadow: 0 1.5em 1.5em -1em #00000072;
             display: flex;
             flex-direction: column;
@@ -36,6 +37,7 @@
 
         .task div {
             display: flex;
+            align-items: center;
         }
 
         .task div>p {
