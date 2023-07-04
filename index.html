@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./task.js"></script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: darkgray;
+        }
+
+        #app {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            margin: 2em;
+        }
+
+        .task {
+            position: relative;
+            border-radius: 1em;
+            padding: 1em;
+            background-color: #fff;
+            flex: 1;
+            min-width: 30%;
+            box-shadow: 0 1.5em 1.5em -1em #00000072;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+        }
+
+        .task div {
+            display: flex;
+        }
+
+        .task div>p {
+            flex: 1;
+        }
+
+        .task div>img {
+            height: 9vmin;
+        }
+
+        button {
+            padding: 1em;
+        }
+
+        .task canvas {
+            border: 0.1em solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Canvas Practice.
+    </h1>
+    <main id="app">
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
